@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 1", "Chapter 1", "{7B16DDEC-5916-4704-94B9-1CEF8CC6837E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotTourOptimization", "RobotTourOptimization\RobotTourOptimization.csproj", "{F30C7175-6678-4562-AD50-3A1B68DC0D27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F30C7175-6678-4562-AD50-3A1B68DC0D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30C7175-6678-4562-AD50-3A1B68DC0D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30C7175-6678-4562-AD50-3A1B68DC0D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30C7175-6678-4562-AD50-3A1B68DC0D27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F30C7175-6678-4562-AD50-3A1B68DC0D27} = {7B16DDEC-5916-4704-94B9-1CEF8CC6837E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {624E382A-BC51-4CED-85F7-25CC211C25A6}
+	EndGlobalSection
+EndGlobal
