@@ -167,6 +167,10 @@ namespace RobotTourOptimization
 			}
 		}
 
+		/*
+		Generates permutations of given array. This class uses Heap's algorithm as described
+		at https://en.wikipedia.org/wiki/Heap%27s_algorithm. 
+		 */
 		public class PermutationGenerator<T> : IEnumerable<T[]>
 		{
 			private T[] values;
@@ -205,7 +209,6 @@ namespace RobotTourOptimization
 
 				public void Dispose()
 				{
-
 				}
 
 				public bool MoveNext()
@@ -214,11 +217,13 @@ namespace RobotTourOptimization
 					if (indexes[currentIndexIndex] < currentIndexIndex)
 					{
 						if ((currentIndexIndex & 1) == 0) //even
-
+						{
 							Swap(ref currentValues[0], ref currentValues[currentIndexIndex]);
-
+						}
 						else
+						{
 							Swap(ref currentValues[indexes[currentIndexIndex]], ref currentValues[currentIndexIndex]);
+						}
 						//Swap has occurred ending the for-loop. Simulate the increment of the for-loop counter
 						indexes[currentIndexIndex] += 1;
 						//Simulate recursive call reaching the base case by bringing the pointer to the base case analog in the array
