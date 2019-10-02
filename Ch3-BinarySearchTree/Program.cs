@@ -10,8 +10,12 @@ namespace Ch3_BinarySearchTree
 	{
 		/*
 		Tests tree routines Insert, Find and Delete. The output for this is as follows
-
-
+			Input Tree: 2 L->(1) R->(7 L->(4 L->(3) R->(6 L->(5))) R->(8))
+			Find(7):7 L->(4 L->(3) R->(6 L->(5))) R->(8)
+			Delete(3): 2 L->(1) R->(7 L->(4 R->(6 L->(5))) R->(8))
+			Delete(6): 2 L->(1) R->(7 L->(4 L->(3) R->(5)) R->(8))
+			Delete(4): 2 L->(1) R->(7 L->(5 L->(3) R->(6)) R->(8))
+			Delete(2): 3 L->(1) R->(7 L->(4 R->(6 L->(5))) R->(8))
 		 */
 		private static void Main(string[] args)
 		{
