@@ -152,6 +152,10 @@ namespace Ch1_RightJob
 			return new SubsetGeneratorImpl(givenSet);
 		}
 
+		/*
+		Subset generator uses a long integer mask to choose elements as part of subset. For each subset the mask is incremented by one
+		until all bits of the mask are set.
+		 */
 		class SubsetGeneratorImpl : IEnumerator<T[]>
 		{
 			private T[] givenSet;

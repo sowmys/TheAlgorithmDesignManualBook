@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1-RobotTourOptimization",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1-RightJob", "Ch1-RightJob\Ch1-RightJob.csproj", "{AE508D52-3080-4127-A7FD-81BF5DCB715E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 3", "Chapter 3", "{8EC4B4DE-6545-4C98-82D6-7464C25C846C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch3-BinarySearchTree", "Ch3-BinarySearchTree\Ch3-BinarySearchTree.csproj", "{9BB0C426-C99A-4176-BCB4-B3C2103BABCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{AE508D52-3080-4127-A7FD-81BF5DCB715E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE508D52-3080-4127-A7FD-81BF5DCB715E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE508D52-3080-4127-A7FD-81BF5DCB715E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB0C426-C99A-4176-BCB4-B3C2103BABCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB0C426-C99A-4176-BCB4-B3C2103BABCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB0C426-C99A-4176-BCB4-B3C2103BABCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB0C426-C99A-4176-BCB4-B3C2103BABCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F30C7175-6678-4562-AD50-3A1B68DC0D27} = {7B16DDEC-5916-4704-94B9-1CEF8CC6837E}
 		{AE508D52-3080-4127-A7FD-81BF5DCB715E} = {7B16DDEC-5916-4704-94B9-1CEF8CC6837E}
+		{9BB0C426-C99A-4176-BCB4-B3C2103BABCA} = {8EC4B4DE-6545-4C98-82D6-7464C25C846C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {624E382A-BC51-4CED-85F7-25CC211C25A6}
