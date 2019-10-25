@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AlgorithmDesignManaual.Chapter01.RobotTourOptimization;
+using AlgorithmDesignManual.Chapter01.RobotTourOptimization;
+using AlgorithmDesignManual.Chapter03.BinarySearchTree;
+using AlgorithmDesignManual.Chapter03.PriorityQueue;
 
-namespace TheAlgorithmDesignManual
+internal class Program
 {
-	class Program
+	private static void Main(string[] args)
 	{
-		static void Main(string[] args)
-		{
-		}
+		TestRightJob.RunTests();
+		TestRobotTourOptimization.RunTests();
+		TestBinarySearchTree.RunTests();
+		TestPriorityQueue.RunTests();
 	}
 }
