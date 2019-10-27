@@ -38,6 +38,9 @@ namespace AlgorithmDesignManual.Chapter01.RobotTourOptimization
 				new[] { new Point(0,0), new Point (-10, 0), new Point(-1, 0), new Point(1, 0), new Point(4, 0) },
 				new[] { new Point(0,0), new Point(0, 10), new Point(10, 0), new Point(10, 10), new Point(20, 0), new Point(20, 10) },
 			};
+			Console.WriteLine("-------------------------------");
+			Console.WriteLine("Testing Robot Tour Optimization");
+			Console.WriteLine("-------------------------------");
 			TestTour(examplePoints, GetNearestNeighborTour);
 			TestTour(examplePoints, GetClosestPairTour);
 			TestTour(examplePoints, GetAllPermutationsTour);

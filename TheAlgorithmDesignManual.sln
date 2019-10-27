@@ -3,20 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 1", "Chapter 1", "{7B16DDEC-5916-4704-94B9-1CEF8CC6837E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1-RobotTourOptimization", "Ch1-RobotTour\Ch1-RobotTourOptimization.csproj", "{F30C7175-6678-4562-AD50-3A1B68DC0D27}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch1-RightJob", "Ch1-RightJob\Ch1-RightJob.csproj", "{AE508D52-3080-4127-A7FD-81BF5DCB715E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter 3", "Chapter 3", "{8EC4B4DE-6545-4C98-82D6-7464C25C846C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch3-PriorityQueue", "Ch3-PriorityQueue\Ch3-PriorityQueue.csproj", "{ACF886CA-9560-4FCF-8184-63EE9497586E}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ch3-BinarySearchTree", "Ch3-BinarySearchTree\Ch3-BinarySearchTree.csproj", "{B4AAA43C-F992-4F31-BAFC-6663CF745A8A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainDriver", "MainDriver\MainDriver.csproj", "{08934574-A65F-4BC5-B8D1-9FCA032011D0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheAlgorithmDesignManual", "TheAlgorithmDesignManual\TheAlgorithmDesignManual.csproj", "{4CDCCBD8-5C44-4BD1-B06E-97418C49E889}"
 EndProject
 Global
@@ -25,26 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F30C7175-6678-4562-AD50-3A1B68DC0D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F30C7175-6678-4562-AD50-3A1B68DC0D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F30C7175-6678-4562-AD50-3A1B68DC0D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F30C7175-6678-4562-AD50-3A1B68DC0D27}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE508D52-3080-4127-A7FD-81BF5DCB715E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE508D52-3080-4127-A7FD-81BF5DCB715E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE508D52-3080-4127-A7FD-81BF5DCB715E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE508D52-3080-4127-A7FD-81BF5DCB715E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ACF886CA-9560-4FCF-8184-63EE9497586E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACF886CA-9560-4FCF-8184-63EE9497586E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ACF886CA-9560-4FCF-8184-63EE9497586E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ACF886CA-9560-4FCF-8184-63EE9497586E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4AAA43C-F992-4F31-BAFC-6663CF745A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4AAA43C-F992-4F31-BAFC-6663CF745A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4AAA43C-F992-4F31-BAFC-6663CF745A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4AAA43C-F992-4F31-BAFC-6663CF745A8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{08934574-A65F-4BC5-B8D1-9FCA032011D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08934574-A65F-4BC5-B8D1-9FCA032011D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08934574-A65F-4BC5-B8D1-9FCA032011D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08934574-A65F-4BC5-B8D1-9FCA032011D0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4CDCCBD8-5C44-4BD1-B06E-97418C49E889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4CDCCBD8-5C44-4BD1-B06E-97418C49E889}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CDCCBD8-5C44-4BD1-B06E-97418C49E889}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -52,13 +18,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{F30C7175-6678-4562-AD50-3A1B68DC0D27} = {7B16DDEC-5916-4704-94B9-1CEF8CC6837E}
-		{AE508D52-3080-4127-A7FD-81BF5DCB715E} = {7B16DDEC-5916-4704-94B9-1CEF8CC6837E}
-		{ACF886CA-9560-4FCF-8184-63EE9497586E} = {8EC4B4DE-6545-4C98-82D6-7464C25C846C}
-		{B4AAA43C-F992-4F31-BAFC-6663CF745A8A} = {8EC4B4DE-6545-4C98-82D6-7464C25C846C}
-		{08934574-A65F-4BC5-B8D1-9FCA032011D0} = {8EC4B4DE-6545-4C98-82D6-7464C25C846C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {624E382A-BC51-4CED-85F7-25CC211C25A6}

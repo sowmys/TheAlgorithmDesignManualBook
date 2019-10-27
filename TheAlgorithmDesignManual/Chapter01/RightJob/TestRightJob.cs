@@ -1,9 +1,10 @@
-﻿using System;
+﻿using AlgorithmDesignManaual.Chapter01.RobotTourOptimization;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
 
-namespace AlgorithmDesignManaual.Chapter01.RobotTourOptimization
+namespace AlgorithmDesignManaual.Chapter01.RightJob
 {
 	/*
 	Chap 1: Robot Tour Optimization
@@ -37,6 +38,9 @@ namespace AlgorithmDesignManaual.Chapter01.RobotTourOptimization
 				new[] { new Point(0,0), new Point (-10, 0), new Point(-1, 0), new Point(1, 0), new Point(4, 0) },
 				new[] { new Point(0,0), new Point(0, 10), new Point(10, 0), new Point(10, 10), new Point(20, 0), new Point(20, 10) },
 			};
+			Console.WriteLine("-------------------------------");
+			Console.WriteLine("Testing Right Job");
+			Console.WriteLine("-------------------------------");
 			TestTour(examplePoints, GetNearestNeighborTour);
 			TestTour(examplePoints, GetClosestPairTour);
 			TestTour(examplePoints, GetAllPermutationsTour);

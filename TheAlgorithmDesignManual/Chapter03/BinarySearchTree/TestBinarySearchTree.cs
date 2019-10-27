@@ -18,6 +18,9 @@ namespace AlgorithmDesignManual.Chapter03.BinarySearchTree
 
 		public static void RunTests()
 		{
+			Console.WriteLine("---------------------------");
+			Console.WriteLine("Testing Binary Search Tree");
+			Console.WriteLine("---------------------------");
 			int[] treeValues = new int[] { 2, 1, 7, 4, 8, 3, 6, 5 };
 			BinarySearchTree<int> binTree = new BinarySearchTree<int>(treeValues);
 			Console.WriteLine(binTree);
