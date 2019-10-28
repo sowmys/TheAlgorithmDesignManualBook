@@ -22,6 +22,9 @@ namespace AlgorithmDesignManual.Chapter04.Heap {
 			}
 		}
 
+		/*
+			Adds a new value and readjusts the heap to keep the parent smaller than all its children.
+		 */
 		public void Add(int value) {
 			values.Add(value);
 			BubbleUp(values.Count);
@@ -38,6 +41,31 @@ namespace AlgorithmDesignManual.Chapter04.Heap {
 				BubbleDown(1);
 			}
 			return (min);
+		}
+
+		/*
+			Returns true if the kth smallest value of the heap is greater or equal to the given value 'x' 
+		 */
+		public bool IsKthElementGreaterOrEqualTo(int x, int k) {
+			int remainingCount = HeapCompare(1, k, x);
+			return remainingCount > 0;
+		}
+
+		/*
+			Moves startIndex forward until k items are scanned, a value greater than x is hit or all elements are visited
+			Returns remainingCount which will be 0 if all K items are scanned. If a value greater than x is hit or all
+			elements are visited then remainingCount is greater than 0
+		 */
+		private int HeapCompare(int startIndex, int remainingCount, int x) {
+			if ((remainingCount <= 0) || (startIndex > Count)) { 
+				return remainingCount;
+			}
+
+			if (GetValue(startIndex) < x) { 
+				remainingCount = HeapCompare(GetFirstChild(startIndex), remainingCount - 1, x); 
+				remainingCount = HeapCompare(GetSecondChild(startIndex), remainingCount, x); 
+			}
+			return (remainingCount);
 		}
 
 		public int Count {
@@ -61,6 +89,14 @@ namespace AlgorithmDesignManual.Chapter04.Heap {
 
 		private int GetParent(int n) {
 			return n == 1 ? InvalidIndex : n / 2;
+		}
+
+		private int GetFirstChild(int index) {
+			return index * 2;
+		}
+
+		private int GetSecondChild(int index) {
+			return index * 2 + 1;
 		}
 
 		private int GetMinChildIndex(int index) {

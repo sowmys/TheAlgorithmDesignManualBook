@@ -26,6 +26,11 @@ namespace AlgorithmDesignManual.Chapter04.Heap {
 			Console.WriteLine("Testing Priority Queue based on Heap");
 			Console.WriteLine("-------------------------------------");
 			Console.WriteLine("Initial Heap: {0}", heap);
+			Console.WriteLine("Is 1st element >= 3: {0}", heap.IsKthElementGreaterOrEqualTo(3, 1));
+			Console.WriteLine("Is 1st element >= 4: {0}", heap.IsKthElementGreaterOrEqualTo(4, 1));
+			Console.WriteLine("Is 1st element >= 5: {0}", heap.IsKthElementGreaterOrEqualTo(5, 1));
+			Console.WriteLine("Is 7th element >= 19: {0}", heap.IsKthElementGreaterOrEqualTo(19, 7));
+			Console.WriteLine("Is 5th element >= 19: {0}", heap.IsKthElementGreaterOrEqualTo(19, 5));
 			while (heap.Count > 0) {
 				Console.WriteLine("Min: {0}, Heap: {1}", heap.GetMin(), heap);
 			}
