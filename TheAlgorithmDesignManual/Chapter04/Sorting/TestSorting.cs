@@ -13,7 +13,7 @@ namespace AlgorithmDesignManual.Chapter04.Sorting {
 			Before: 4,8,3,12,9,1,32,2
 			After: 1,2,3,4,8,9,12,32
 			Searched ....Index of value 3 is 2
-
+			Searched ....Index of value 5 is -1
 		 */
 		public static void RunTests() {
 			int[] s = new int[] { 4, 8, 3, 12, 9, 1, 32, 2 };
