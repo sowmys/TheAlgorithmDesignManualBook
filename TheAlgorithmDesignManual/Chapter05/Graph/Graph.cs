@@ -10,7 +10,7 @@ namespace AlgorithmDesignManual.Chapter05.Graph {
 		2. The nodes are contained in a Dictionary (Map) instead of an array
 	 */
 	public class Graph {
-		private Dictionary<string, EdgeNode> edges = new Dictionary<string, EdgeNode>();
+		private readonly Dictionary<string, EdgeNode> edges = new Dictionary<string, EdgeNode>();
 		private Dictionary<string, int> degrees = new Dictionary<string, int>();
 		private int edgeCount;
 		private bool directed;
@@ -21,6 +21,9 @@ namespace AlgorithmDesignManual.Chapter05.Graph {
 		}
 
 		public int VertexCount => edges.Count;
+
+		public IReadOnlyDictionary<string, EdgeNode> Edges => edges;
+
 		public void Add(string x, string y, int weight) {
 			Add(x, y, weight, this.directed);
 		}

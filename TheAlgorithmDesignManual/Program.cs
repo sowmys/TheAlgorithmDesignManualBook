@@ -5,6 +5,8 @@ using AlgorithmDesignManual.Chapter03.PriorityQueue;
 using AlgorithmDesignManual.Chapter04.Heap;
 using AlgorithmDesignManual.Chapter04.Sorting;
 using AlgorithmDesignManual.Chapter05.Graph;
+using AlgorithmDesignManual.Chapter07.AllGraphPaths;
+using AlgorithmDesignManual.Chapter07.Permutation;
 using AlgorithmDesignManual.Chapter07.Subset;
 
 internal class Program
@@ -18,6 +20,8 @@ internal class Program
 		//TestHeap.RunTests();
 		//TestSorting.RunTests();
 		//TestGraph.RunTests();
-		TestSubsetGenerator.RunTests();
+		//TestSubsetGenerator.RunTests();
+		//TestPermutationGenerator.RunTests();
+		TestGraphPathLister.RunTests();
 	}
 }
