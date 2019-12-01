@@ -8,6 +8,7 @@ using AlgorithmDesignManual.Chapter05.Graph;
 using AlgorithmDesignManual.Chapter07.AllGraphPaths;
 using AlgorithmDesignManual.Chapter07.Permutation;
 using AlgorithmDesignManual.Chapter07.Subset;
+using AlgorithmDesignManual.Chapter07.Sudoku;
 
 internal class Program
 {
@@ -22,6 +23,7 @@ internal class Program
 		//TestGraph.RunTests();
 		//TestSubsetGenerator.RunTests();
 		//TestPermutationGenerator.RunTests();
-		TestGraphPathLister.RunTests();
+		//TestGraphPathLister.RunTests();
+		TestSudokuSolver.RunTests();
 	}
 }

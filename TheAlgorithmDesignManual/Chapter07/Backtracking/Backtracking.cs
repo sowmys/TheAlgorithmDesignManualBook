@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace AlgorithmDesignManual.Chapter07.Backtracking {
@@ -16,14 +17,14 @@ namespace AlgorithmDesignManual.Chapter07.Backtracking {
 		public IBacktrackingProblem<T> BacktrackingProblem { get; private set; }
 
 		public void Backtrack(List<T> solution) {
-			Console.Write("solution: {0}", string.Join(",", solution));
+			//Console.Write("solution[{0}]: {1}", solution.Count, solution.Count/*, string.Join(",", solution)*/);
 			if (BacktrackingProblem.IsASolution(solution)) {
-				Console.WriteLine("<== IsASolution");
+				//Console.WriteLine("<== IsASolution");
 				BacktrackingProblem.ProcessSolution(solution);
 				return;
 			}
-			Console.WriteLine();
-			var possibleSteps = BacktrackingProblem.ConstuctCandidates(solution);
+			var possibleSteps = BacktrackingProblem.ConstuctCandidates(solution).ToArray();
+			//Console.WriteLine("PossibleValuesCount: {0}", possibleSteps.Length);
 			foreach (var possibleStep in possibleSteps) {
 				solution.Add(possibleStep);
 				BacktrackingProblem.MakeMove(solution);
